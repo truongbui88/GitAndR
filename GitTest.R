@@ -1,5 +1,5 @@
 myfunction <- function(x){
-  y = x^2 + 2
+  y = x^3 + 2
   return(y)
 }
 
@@ -7,3 +7,10 @@ myfunction <- function(x){
 myfunction(4)
 myfunction(7)
 myfunction(8)
+
+second_function <- function(x){
+  y = x*2
+  return(y)
+}
+
+second_function(10)
